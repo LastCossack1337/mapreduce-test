@@ -10,5 +10,5 @@
 -input /logstat3/input/* -output /logstat3/output/
 /usr/local/hadoop/bin/hdfs dfs -cat /logstat3/output/part-00000
 /usr/local/hadoop/bin/hdfs dfs -rm -r /logstat3/input/
-/usr/local/hadoop/bin/hdfs dfs -rm -r /logstat3/output/
+#/usr/local/hadoop/bin/hdfs dfs -rm -r /logstat3/output/
 ../../stop.sh
