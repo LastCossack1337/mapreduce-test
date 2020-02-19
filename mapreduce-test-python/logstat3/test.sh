@@ -8,7 +8,7 @@
 -file ../../mapreduce-test-python/logstat3/mapper.py -mapper ../../mapreduce-test-python/logstat3/mapper.py \
 -file ../../mapreduce-test-python/logstat3/reducer.py -reducer ../../mapreduce-test-python/logstat3/reducer.py \
 -input /logstat3/input/* -output /logstat3/output/ > /c/Users/smykh/Desktop/testfolder/test.txt
-/usr/local/hadoop/bin/hdfs dfs -cat /logstat3/output/part-00000 > > /c/Users/smykh/Desktop/testfolder/test2.txt
+/usr/local/hadoop/bin/hdfs dfs -cat /logstat3/output/part-00000 > /c/Users/smykh/Desktop/testfolder/test2.txt
 /usr/local/hadoop/bin/hdfs dfs -rm -r /logstat3/input/
 /usr/local/hadoop/bin/hdfs dfs -rm -r /logstat3/output/
 ../../stop.sh
